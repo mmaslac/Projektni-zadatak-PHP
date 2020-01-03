@@ -1,0 +1,148 @@
+body, html {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+	font-size: 20px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.moja-slika {
+	background-image: url("img/A1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+	height: 950px;
+}
+.moja-slika2 {
+	background-image: url("img/A1_2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: relative;
+	height: 950px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #b22222;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+
+
+h1,h2 {
+	margin: 1em;
+	font-size: 2em;
+}
+
+main a {
+	color: #27318b;
+	text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+
+.onama img {
+	width: 12%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.onama h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #4682B4;
+}
+.onama hr {
+	margin: 1em;
+	border: 1px groove #27318b;
+	clear: both;
+}
+.onama time {
+	font-size: 90%;
+	font-style: italic;
+}
+.description {
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+#onama_gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+#onama_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid white;
+}
+figcaption {
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+}
+img {
+	width: 100%;
+}
+
+video {
+	margin: 0 1em 1em 1em;
+	float: left;
+}
+
+footer {
+	background-color: #b22222;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+}
